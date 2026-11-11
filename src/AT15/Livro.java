@@ -24,7 +24,7 @@ public class Livro extends MaterialBiblioteca implements Emprestavel {
     }
 
     @Override
-    void exibirSituacao () {
+    void exibirSituacao() {
         if (emprestado) {
             System.out.println("Situação: Emprestado");
         } else {
